@@ -44,16 +44,25 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/web-app-manifest-192x192.png" />
+        <link rel="icon" type="image/png" sizes="512x512" href="/web-app-manifest-512x512.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="#000000" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white`}>
         <header className="p-4 flex justify-between items-center max-w-5xl mx-auto">
-          <Link href="/" className="text-xl font-semibold">
+          <Link href="/" className="text-xl font-semibold hover:underline">
             harrykris.com
           </Link>
           <nav className="space-x-4 text-sm">
             <Link href="/projects" className="hover:underline">
               Projects
             </Link>
-            {/* Uncomment when pages exist */}
             {/* <Link href="/about" className="hover:underline">About</Link> */}
             {/* <Link href="/contact" className="hover:underline">Contact</Link> */}
           </nav>
