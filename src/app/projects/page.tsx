@@ -11,19 +11,19 @@ const projects = [
     title: 'GeMBot',
     description: 'Automates GeM bid scraping, CSV editing, and real-time monitoring. Integrated with Supabase and MUI.',
     tech: ['Supabase', 'Node.js', 'Next.js', 'MUI'],
-    link: 'https://github.com/harrykris/gembot',
+    link: 'https://github.com/harrykris42/gembot',
   },
   {
     title: 'Custom OS',
     description: 'An x86 OS written from scratch using bootloader and 64-bit kernel, built with NASM and C.',
     tech: ['Assembly', 'C', 'QEMU', 'GRUB'],
-    link: 'https://github.com/harrykris/custom-os',
+    link: 'https://github.com/harrykris42/custom_os',
   },
   {
     title: 'Railway Ticket System',
     description: 'Terminal-based full-stack booking system with Python, MySQL, and HTML frontend.',
     tech: ['Python', 'MySQL', 'HTML'],
-    link: 'https://github.com/harrykris/railway-ticket-system',
+    link: 'https://github.com/harrykris42/railway',
   },
 ]
 
