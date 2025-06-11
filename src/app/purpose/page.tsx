@@ -6,7 +6,7 @@ export default function PurposePage() {
         <br />
         <span className="text-cyan-400">for he can’t be stopped.</span>
       </h1>
-      <p className="text-gray-400 mt-4 text-sm md:text-base">– Hari Kris, 2025</p>
+      <p className="text-gray-400 mt-4 text-sm md:text-base">– Harry Kris, 2025</p>
     </div>
   )
 }
