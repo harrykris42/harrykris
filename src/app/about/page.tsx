@@ -3,7 +3,7 @@ export default function AboutPage() {
     <main className="min-h-screen bg-black text-white px-6 py-12 flex flex-col items-center">
       <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center">About Me</h1>
       <p className="text-zinc-400 max-w-2xl text-lg mb-8 text-center">
-        I&apos;m Harikrishnan K, a developer and founder of <strong className="text-cyan-400">Wisplet</strong>. I build clean, scalable systems with a passion for speed, efficiency, and creative automation.
+        I&apos;m Harikrishnan Kodakkad, a developer and founder of <strong className="text-cyan-400">Wisplet</strong>. I build clean, scalable systems with a passion for speed, efficiency, and creative automation.
       </p>
       
       <div className="max-w-3xl text-zinc-300 space-y-6 leading-relaxed">

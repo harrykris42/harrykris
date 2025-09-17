@@ -6,7 +6,7 @@ const categorizedProjects = {
     {
       title: 'Wisplet',
       description:
-        'AI character platform with chat, image, and voice generation. Uses Claude 3, Midjourney, and Supabase.',
+        'Wisplet Inc. is a U.S.-registered software company building secure, cloud-based AI tools for communication, collaboration, and productivity. Users can create and share intelligent virtual agents in customizable, multi-user chat environments.',
       tech: ['Next.js', 'Supabase', 'Vercel', 'Stripe'],
       link: 'https://wisplet.com',
       thumbnail: '/wisplet.svg',
